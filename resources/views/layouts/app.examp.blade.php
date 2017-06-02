@@ -78,6 +78,7 @@
             </div>
         </nav>
         @include ('flash::message')
+        @include ('errors.list')
 
         @yield('content')
     </div>
